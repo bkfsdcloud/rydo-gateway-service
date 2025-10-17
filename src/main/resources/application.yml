@@ -1,0 +1,20 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: rydo-gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: location-service
+          uri: ws://192.168.1.15:8085   # Location Service URL
+          predicates:
+            - Path=/ws/**
+
+        - id: user-service
+          uri: http://localhost:8084   # User Service URL
+          predicates:
+            - Path=/api/users/**
+rydo:
+  service-url:
+    user: http://localhost:8084
