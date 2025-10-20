@@ -10,6 +10,10 @@ spring:
           uri: ws://192.168.1.15:8085   # Location Service URL
           predicates:
             - Path=/ws/**
+        - id: location-service1
+          uri: http://192.168.1.15:8085   # Location Service URL
+          predicates:
+            - Path=/api/drivers/**
         - id: map-service
           uri: http://localhost:8084   # User Service URL
           predicates:
