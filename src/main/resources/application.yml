@@ -18,6 +18,10 @@ spring:
           uri: http://127.0.0.1:8084   # User Service URL
           predicates:
             - Path=/api/geo/**
+        - id: ride-service
+          uri: http://127.0.0.1:8084   # User Service URL
+          predicates:
+            - Path=/api/rides/**
         - id: user-service
           uri: http://127.0.0.1:8084   # User Service URL
           predicates:
