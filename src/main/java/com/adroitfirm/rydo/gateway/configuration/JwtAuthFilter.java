@@ -12,7 +12,7 @@ import org.springframework.web.server.ServerWebExchange;
 import org.springframework.web.server.WebFilter;
 import org.springframework.web.server.WebFilterChain;
 
-import com.adroitfirm.rydo.gateway.util.JwtUtils;
+import com.adroitfirm.rydo.utility.JwtUtils;
 
 import io.jsonwebtoken.Claims;
 import reactor.core.publisher.Mono;

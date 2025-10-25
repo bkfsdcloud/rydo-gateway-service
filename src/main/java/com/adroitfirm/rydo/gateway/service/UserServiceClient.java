@@ -3,7 +3,7 @@ package com.adroitfirm.rydo.gateway.service;
 import java.util.Map;
 
 import com.adroitfirm.rydo.dto.UserDto;
-import com.adroitfirm.rydo.gateway.util.ApiResponse;
+import com.adroitfirm.rydo.utility.ApiResponse;
 
 import reactor.core.publisher.Mono;
 

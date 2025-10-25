@@ -11,7 +11,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import com.adroitfirm.rydo.dto.UserDto;
 import com.adroitfirm.rydo.gateway.service.UserServiceClient;
-import com.adroitfirm.rydo.gateway.util.ApiResponse;
+import com.adroitfirm.rydo.utility.ApiResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import reactor.core.publisher.Mono;
